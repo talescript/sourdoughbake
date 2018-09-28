@@ -3,7 +3,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .overlay {
@@ -13,7 +13,7 @@
     left: 0;
     top: 0;
     background: rgba(19, 17, 17, 0.69);
-    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .description {
