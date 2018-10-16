@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Baker's percentage calculator">
+    <meta name="author" content="Alexander">
+    <title>SourdoughBake - A free baker's calculator</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link type="text/css" href="./assets/css/argon.min.css" rel="stylesheet">
+    <link type="text/css" href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-6">
+                    <div class="card bg-gradient-secondary shadow">
+                        <div class="card-body p-lg-5">
+                            <h4 class="mb-1">Baker’s percentage calculator</h4>
+                            <p class="mt-0">Sourdough is addictive</p>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="autolyse">Autolyse</label>
+                                        <input type="text" class="form-control form-control-alternative" id="autolyse" placeholder="350g" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="starter">Starter</label>
+                                        <input type="text" class="form-control form-control-alternative" id="starter" placeholder="20%" disabled>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="salt">Salt</label>
+                                        <input type="text" class="form-control form-control-alternative" id="salt" placeholder="1.8%" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="water">Hydration</label>
+                                        <input type="text" class="form-control form-control-alternative" id="water" placeholder="65%" disabled>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <button type="button" class="btn btn-default btn-round btn-block btn-lg" disabled>Reset</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Autolyse</th>
+                                <th scope="col">Starter</th>
+                                <th scope="col">Salt</th>
+                                <th scope="col">Hydration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="autolyse">350g</td>
+                                <td class="starter">70g</td>
+                                <td class="salt">6.93g</td>
+                                <td class="water">250g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Core -->
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/popper/popper.min.js"></script>
+    <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/argon.min.js"></script>
+</body>
+
+</html>

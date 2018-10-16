@@ -1,0 +1,2 @@
+# Redirect rules from what the browser requests to what is served
+/calc/index.html       /calc
