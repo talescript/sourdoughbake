@@ -25,69 +25,78 @@
     <main>
         <div class="container">
             <div class="row ">
+
                 <div class="col-sm-6">
+
                     <div class="card bg-gradient-secondary shadow">
                         <div class="card-body p-lg-5">
-                            <h4 class="mb-1">Baker’s percentage calculator</h4>
-                            <p class="mt-0">Sourdough is addictive</p>
 
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="autolyse">Autolyse</label>
-                                        <input type="text" class="form-control form-control-alternative" id="autolyse" placeholder="350g" disabled>
+                            <form action="" id="caclulator">
+                                <h4 class="mb-1">Baker’s percentage calculator</h4>
+                                <p class="mt-0">Sourdough is addictive</p>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="autolyse">Autolyse</label>
+                                            <input type="number" class="form-control form-control-alternative" id="autolyse" placeholder="350g">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="starter">Starter</label>
+                                            <input type="text" class="form-control form-control-alternative" id="starter" placeholder="20%">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="starter">Starter</label>
-                                        <input type="text" class="form-control form-control-alternative" id="starter" placeholder="20%" disabled>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="salt">Salt</label>
+                                            <input type="text" class="form-control form-control-alternative" id="salt" placeholder="1.8%">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="water">Hydration</label>
+                                            <input type="text" class="form-control form-control-alternative" id="water" placeholder="65%">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="salt">Salt</label>
-                                        <input type="text" class="form-control form-control-alternative" id="salt" placeholder="1.8%" disabled>
-                                    </div>
+                                <div>
+                                    <button type="button" class="btn btn-default btn-round btn-block btn-lg">Reset</button>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="water">Hydration</label>
-                                        <input type="text" class="form-control form-control-alternative" id="water" placeholder="65%" disabled>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div>
-                                <button type="button" class="btn btn-default btn-round btn-block btn-lg" disabled>Reset</button>
-                            </div>
+                            </form>
 
                         </div>
                     </div>
+
                 </div>
+
+
                 <div class="col-sm-6">
-                    <table class="table">
-                        <thead class="thead-light">
-                            <tr>
-                                <th scope="col">Autolyse</th>
-                                <th scope="col">Starter</th>
-                                <th scope="col">Salt</th>
-                                <th scope="col">Hydration</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="autolyse">350g</td>
-                                <td class="starter">70g</td>
-                                <td class="salt">6.93g</td>
-                                <td class="water">250g</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Autolyse</th>
+                                    <th scope="col">Starter</th>
+                                    <th scope="col">Salt</th>
+                                    <th scope="col">Hydration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="autolyse">350g</td>
+                                    <td id="starter">70g</td>
+                                    <td id="salt">6.93g</td>
+                                    <td id="water">250g</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
