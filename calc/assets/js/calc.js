@@ -17,41 +17,23 @@ form.elements["starter"].addEventListener('input', getValue);
 form.elements["salt"].addEventListener('input', getValue);
 form.elements["water"].addEventListener('input', getValue);
 
-/* var autolyseWeight = autolyse.value * 1;
-var starterWeight = autolyse.value * starter.value;
-var halfStarter = starterWeight / 2
-var doughWeight = halfStarter + autolyseWeight;
-var saltWeight = doughWeight * salt.value;
-var waterWeight = (doughWeight * water.value) - halfStarter;
-
-autolyse_r.textContent = autolyseWeight.toFixed(2);
-starter_r.textContent = starterWeight.toFixed(2);
-salt_r.textContent = saltWeight.toFixed(2);
-water_r.textContent = waterWeight.toFixed(2); */
-
 function getValue(){
     
     if (this.id == "autolyse") {
-        autolyse.value = this.value;
-        
+        autolyse.value = this.value;  
     }
     else if (this.id == "starter") {
-        starter.value = this.value;
-        
+        starter.value = this.value;  
     }
     else if (this.id == "salt") {
-        salt.value = this.value;
-        
+        salt.value = this.value; 
     }
     else if (this.id == "water") {
-        water.value = this.value;
-        
-        
+        water.value = this.value;        
     }
 }
 
 var btn = document.querySelector(".calculate");
-
 btn.addEventListener("click", calculate);
 
 function calculate(){
