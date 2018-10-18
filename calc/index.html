@@ -31,7 +31,7 @@
                     <div class="card bg-gradient-secondary shadow">
                         <div class="card-body p-lg-5">
 
-                            <form action="" id="caclulator">
+                            <form action="" id="calculator">
                                 <h4 class="mb-1">Baker’s percentage calculator</h4>
                                 <p class="mt-0">Sourdough is addictive</p>
 
@@ -39,13 +39,13 @@
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="autolyse">Autolyse</label>
-                                            <input type="number" class="form-control form-control-alternative" id="autolyse" placeholder="350g">
+                                            <input value="350" type="number" class="form-control form-control-alternative" id="autolyse">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="starter">Starter</label>
-                                            <input type="text" class="form-control form-control-alternative" id="starter" placeholder="20%">
+                                            <input step="0.1" value="0.2" type="number" class="form-control form-control-alternative" id="starter">
                                         </div>
                                     </div>
                                 </div>
@@ -54,19 +54,19 @@
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="salt">Salt</label>
-                                            <input type="text" class="form-control form-control-alternative" id="salt" placeholder="1.8%">
+                                            <input step="0.001" value="0.018" type="number" class="form-control form-control-alternative" id="salt">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="water">Hydration</label>
-                                            <input type="text" class="form-control form-control-alternative" id="water" placeholder="65%">
+                                            <input step="0.01" value="0.65" type="number" class="form-control form-control-alternative" id="water">
                                         </div>
                                     </div>
                                 </div>
 
                                 <div>
-                                    <button type="button" class="btn btn-default btn-round btn-block btn-lg">Reset</button>
+                                    <button type="button" class="btn btn-default btn-round btn-block btn-lg calculate">Calculate</button>
                                 </div>
                             </form>
 
@@ -89,10 +89,14 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td id="autolyse">350g</td>
-                                    <td id="starter">70g</td>
-                                    <td id="salt">6.93g</td>
-                                    <td id="water">250g</td>
+                                    <td id="autolyse_r"></td>
+                                    <td id="starter_r"></td>
+                                    <td id="salt_r"></td>
+                                    <td id="water_r"></td>
+                                </tr>
+                                <tr>
+                                    <th>Dough Weight</th>
+                                    <td class="dw"></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -109,6 +113,7 @@
 
     <!-- Theme JS -->
     <script src="./assets/js/argon.min.js"></script>
+    <script src="./assets/js/calc.js"></script>
 </body>
 
 </html>
