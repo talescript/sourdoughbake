@@ -58,8 +58,7 @@ function calculate(){
 
     var flourOneWeight = autolyseWeight * flourOne.value;
     var flourTwoWeight = autolyseWeight * flourTwo.value;
-    console.log(flourOneWeight);
-    console.log(flourTwoWeight);
+    var flourDifference = autolyseWeight;
 
     // place results on table
     autolyse_r.textContent = autolyseWeight.toFixed(2) + "g";
@@ -80,5 +79,10 @@ function calculate(){
         flourOne_r.classList.remove("bg-danger", "text-white");
         flourTwo_r.classList.remove("bg-danger", "text-white");
     }
+
+        
+    flourDifference = flourDifference - (flourOneWeight + flourTwoWeight);
+    autolyse_r.textContent = flourDifference + "g";
+
 
 }
