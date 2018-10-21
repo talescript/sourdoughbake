@@ -64,9 +64,24 @@
                                         </div>
                                     </div>
                                 </div>
+                                <p class="mt-0">The following two inputs are in case you want to use more than one type of flour for your autolyse.</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="flourOne">Flour</label>
+                                            <input step="0.01" type="number" class="form-control form-control-alternative" id="flourOne" placeholder="0.4">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="flourTwo">Flour</label>
+                                            <input step="0.01" type="number" class="form-control form-control-alternative" id="flourTwo" placeholder="0.6">
+                                        </div>
+                                    </div>
+                                </div>
 
-                                <div>
-                                    <button type="button" class="btn btn-default btn-round btn-block btn-lg calculate">Calculate</button>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-default btn-round calculate">Bake it</button>
                                 </div>
                             </form>
 
@@ -95,6 +110,12 @@
                                     <td id="water_r"></td>
                                 </tr>
                                 <tr>
+                                    <td id="flourOne_r"></td>
+                                </tr>
+                                <tr>
+                                    <td id="flourTwo_r"></td>
+                                </tr>
+                                <tr>
                                     <th>Dough Weight</th>
                                     <td class="dw"></td>
                                 </tr>
@@ -102,8 +123,14 @@
                         </table>
                     </div>
                 </div>
+                <div class="col">
+
+
+                </div>
             </div>
+            <!--end of row-->
         </div>
+        <!--end of container-->
     </main>
 
     <!-- Core -->
