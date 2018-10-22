@@ -71,13 +71,15 @@ function calculate(){
 
     // Check if the flours are less or equal to autolyse
     if (flourOneWeight + flourTwoWeight > autolyseWeight){
-        flourOne_r.classList.add("bg-danger", "text-white");
-        flourTwo_r.classList.add("bg-danger", "text-white");
+        autolyse_r.classList.add("bg-danger", "text-white");
+        /* flourOne_r.classList.add("bg-warning", "text-white");
+        flourTwo_r.classList.add("bg-warning", "text-white"); */
 
     }
     else {
-        flourOne_r.classList.remove("bg-danger", "text-white");
-        flourTwo_r.classList.remove("bg-danger", "text-white");
+        autolyse_r.classList.remove("bg-danger", "text-white");
+        /* flourOne_r.classList.remove("bg-warning", "text-white");
+        flourTwo_r.classList.remove("bg-warning", "text-white"); */
     }
 
         
