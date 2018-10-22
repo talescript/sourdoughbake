@@ -3,7 +3,8 @@
  * http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zooming_form_controls/
 */
 #autolyse, #starter,
-#salt, #water,
+#salt, #water, #flourOne,
+#flourTwo,
 input[type='text']:focus,
 input[type='number']:focus,
 textarea:focus {
