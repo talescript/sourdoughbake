@@ -1,3 +1,3 @@
 # Redirect rules from what the browser requests to what is served
-index/html             /
+index.html             /
 /calc/index.html       /calc
