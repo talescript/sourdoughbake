@@ -66,7 +66,7 @@ function calculate(){
     starter_r.textContent = starterWeight.toFixed(2) + "g";
     salt_r.textContent = saltWeight.toFixed(2) + "g";
     water_r.textContent = waterWeight.toFixed(2) + "g";
-    dw.textContent = (doughWeight + saltWeight + waterWeight).toFixed(2) + "g";
+    dw.textContent = (autolyseWeight + starterWeight + saltWeight + waterWeight).toFixed(2) + "g";
     flourOne_r.textContent = flourOneWeight.toFixed(2) + "g"
     flourTwo_r.textContent = flourTwoWeight.toFixed(2) + "g"
 
