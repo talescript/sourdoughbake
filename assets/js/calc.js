@@ -52,6 +52,7 @@ function calculate(){
     var autolyseWeight = autolyse.value * 1;
     var starterWeight = autolyseWeight * starter.value;
     var halfStarter = starterWeight / 2
+    // variable name doughWeight does not represent doughWeight
     var doughWeight = halfStarter + autolyseWeight;
     var saltWeight = doughWeight * salt.value;
     var waterWeight = (doughWeight * water.value) - halfStarter;
@@ -65,7 +66,7 @@ function calculate(){
     starter_r.textContent = starterWeight.toFixed(2) + "g";
     salt_r.textContent = saltWeight.toFixed(2) + "g";
     water_r.textContent = waterWeight.toFixed(2) + "g";
-    dw.textContent = doughWeight + "g";
+    dw.textContent = (doughWeight + saltWeight + waterWeight).toFixed(2) + "g";
     flourOne_r.textContent = flourOneWeight.toFixed(2) + "g"
     flourTwo_r.textContent = flourTwoWeight.toFixed(2) + "g"
 
