@@ -45,6 +45,11 @@
             </div>
         </div>
     </nav>
+    <style>
+    #calculator {
+        color: black;
+    }
+    </style>
     <main>
         <div class="container">
             <div class="row ">
@@ -55,20 +60,19 @@
                         <div class="card-body p-lg-5">
 
                             <form action="" id="calculator">
-                                <h4 class="mb-1">Baker’s percentage calculator</h4>
-                                <p class="mt-0">Sourdough is addictive</p>
+                                <p class="mb-1">Autolyse is the amount of flour you are going to use to make bread</p>
 
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="autolyse">Autolyse</label>
-                                            <input value="350" type="number" class="form-control form-control-alternative" id="autolyse">
+                                            <input value="350" type="text" class="form-control form-control-alternative" id="autolyse">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="starter">Starter</label>
-                                            <input step="0.1" value="0.2" type="number" class="form-control form-control-alternative" id="starter">
+                                            <input step="0.1" value="0.2" type="text" class="form-control form-control-alternative" id="starter">
                                         </div>
                                     </div>
                                 </div>
@@ -77,30 +81,30 @@
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="salt">Salt</label>
-                                            <input step="0.001" value="0.018" type="number" class="form-control form-control-alternative" id="salt">
+                                            <input step="0.001" value="0.018" type="text" class="form-control form-control-alternative" id="salt">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="water">Hydration</label>
-                                            <input step="0.01" value="0.65" type="number" class="form-control form-control-alternative" id="water">
+                                            <input step="0.01" value="0.65" type="text" class="form-control form-control-alternative" id="water">
                                         </div>
                                     </div>
                                 </div>
-                                <p class="mt-0">The following two inputs are in case you want to use more than one type of flour for your
-                                    autolyse.
+                                <p class="mt-0">The following two inputs are in case you want to use more than one type of flour in your
+                                    autolyse. 
                                 </p>
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="flourOne">Flour</label>
-                                            <input step="0.01" value="0" type="number" class="form-control form-control-alternative" id="flourOne">
+                                            <input step="0.01" type="text" class="form-control form-control-alternative" id="flourOne" placeholder="0.20">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group">
                                             <label for="flourTwo">Flour</label>
-                                            <input step="0.01" value="0" type="number" class="form-control form-control-alternative" id="flourTwo">
+                                            <input step="0.01" type="text" class="form-control form-control-alternative" id="flourTwo" placeholder="0.40">
                                         </div>
                                     </div>
                                 </div>
