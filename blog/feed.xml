@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Sourdough Bake </title>
-    <link href="https://www.sourdoughbake.com/feed.xml" rel="self" />
-    <link href="https://www.sourdoughbake.com" />
-    <updated>2019-01-30T21:46:59-05:00</updated>
+    <link href="https://www.sourdoughbake.com/blog/feed.xml" rel="self" />
+    <link href="https://www.sourdoughbake.com/blog" />
+    <updated>2019-01-30T21:52:08-05:00</updated>
     <author>
         <name>Talescript</name>
     </author>
-    <id>https://www.sourdoughbake.com</id>
+    <id>https://www.sourdoughbake.com/blog</id>
 
     <entry>
         <title>Baker&#x27;s Math</title>
         <author>
             <name>Kristen</name>
         </author>
-        <link href="https://www.sourdoughbake.com/bakers-math.html"/>
-        <id>https://www.sourdoughbake.com/bakers-math.html</id>
+        <link href="https://www.sourdoughbake.com/blog/bakers-math.html"/>
+        <id>https://www.sourdoughbake.com/blog/bakers-math.html</id>
             <category term="beginner"/>
             <category term="Baker&#x27;s math"/>
 
         <updated>2019-01-30T20:07:46-05:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://www.sourdoughbake.com/media/posts/1/pexels-photo-564883.jpeg" alt="A baker looking at loafs in window pane" />
+                        <img src="https://www.sourdoughbake.com/blog/media/posts/1/pexels-photo-564883.jpeg" alt="A baker looking at loafs in window pane" />
                     Baker’s math. If you are like how I used to be, you&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://www.sourdoughbake.com/media/posts/1/pexels-photo-564883.jpeg" alt="A baker looking at loafs in window pane" />
+                    <img src="https://www.sourdoughbake.com/blog/media/posts/1/pexels-photo-564883.jpeg" alt="A baker looking at loafs in window pane" />
                 <p><span style="color: #000000;"><span style="font-family: Calibri, serif;"><span style="font-size: large;"><span lang="x-none">Baker’s math.</span></span></span></span></p>
 <p><span style="color: #000000;"><span style="font-family: Calibri, serif;"><span style="font-size: large;"><span lang="x-none">If you are like</span></span></span></span> <span style="color: #c45911;"><span style="font-family: Calibri, serif;"><span style="font-size: large;">how</span></span></span><span style="color: #000000;"><span style="font-family: Calibri, serif;"><span style="font-size: large;"><span lang="x-none"> I used to be, you probably saw some beautiful bread posts online with captions like, “70% bread flour, 30% wheat, 70% hydration, 1.8% salt” and they left you wondering what new version of math equaled up to 171.8%. After</span></span></span></span></p>
 <p><span style="color: #000000;"><span style="font-family: Calibri, serif;"><span style="font-size: large;"><span lang="x-none">much research, nagging many fantastic bakers, and watching more YouTube videos than I can keep track of, I finally figured out the secret to understanding baker’s math and why it’s important.</span></span></span></span></p>
