@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Sourdough Bake </title>
+    <title>Sourdough blog </title>
     <link href="https://www.sourdoughbake.com/blog/feed.xml" rel="self" />
     <link href="https://www.sourdoughbake.com/blog" />
-    <updated>2019-02-03T20:46:45-05:00</updated>
+    <updated>2019-02-03T20:52:40-05:00</updated>
     <author>
         <name>Alexander</name>
     </author>
