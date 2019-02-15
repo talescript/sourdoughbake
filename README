@@ -1,2 +1,12 @@
 # Push to github
 git push master-copy
+
+git branch -a
+git checkout -b <branchname>
+git checkout <branchname>
+
+# merge from development branch to master
+# --no-ff means we want to retain all of the commit
+# messages prior to the merge
+
+git merge <branchname> --no-ff

@@ -1,3 +1,152 @@
-.card-body p {
-    font-size: 1.1rem;
+html {
+    font-size: 62.5%;
+    font-family: serif;
+  }
+  
+  body {
+    font-size: 1.8rem;
+    line-height: 1.618;
+    max-width: 38em;
+    margin: auto;
+    color: #4a4a4a;
+    background-color: #f9f9f9;
+    padding: 13px;
+  }
+  
+  @media (max-width: 684px) {
+    body {
+      font-size: 1.53rem;
+    }
+  }
+  
+  @media (max-width: 382px) {
+    body {
+      font-size: 1.35rem;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  h1 {
+    font-size: 2.35em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+  }
+  
+h4 {
+  font-size: 1.5em;
 }
+  
+h5 {
+  font-size: 1.25em;
+}
+  
+h6 {
+  font-size: 1em;
+}
+
+  /** MAIN STYLES **/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-areas: 
+    "header header header"
+        
+    ".      main   ."
+    ".      side   ."
+    "footer footer footer" */
+    grid-gap: 10px;
+}
+
+@media only screen and (min-width: 600px){
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .container header,
+    .container nav,
+    .container footer {
+        grid-column: span 4;
+    }
+    .container section {
+        grid-column: span 3;
+    }
+
+    .toggle {
+        display: none;
+    }
+}
+
+/** Nav **/
+.container nav {
+    background: #136fd2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 599px) {
+    #nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        left: -340px;
+        transition: transform .3s ease-in-out;
+    }
+    #nav:target {
+        transform: translateX(340px);
+    }
+    .close {
+        text-align: right;
+        display: block;
+        text-decoration: none;
+        font-size: 3em;
+        position: relative;
+        top: -10px;
+      }
+}
+
+
+/*  Kevin powell https://www.youtube.com/watch?v=duH4DLq5yoo
+  @media only screen and (min-width: 600px){
+      .container {
+          grid-template-columns: minmax(1.5em, 1fr) minmax(650px, 960px) 450px minmax(1.5em, 1fr);
+          grid-template-areas:
+            "header header header header"
+            "nav    nav    nav    nav"
+            ".      main   side   ."
+            "footer footer footer footer"
+      }
+  }
+
+header { grid-column: header / header; } 
+nav { grid-area: nav;}
+section { grid-area: main; }
+aside { grid-area: side; }
+footer { grid-area: footer; } */
