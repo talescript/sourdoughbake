@@ -1,3 +1,7 @@
 .card-body p {
     font-size: 1.1rem;
 }
+
+#clear-color {
+    color: unset;
+}
