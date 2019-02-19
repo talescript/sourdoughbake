@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Baker's percentage calculator">
+    <meta name="author" content="Alexander">
+    <title>SourdoughBake - A free baker's calculator</title>
+
+    <!-- Fonts -->
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link href="../assets/css/material-kit.css?v=2.0.4" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" color-on-scroll="100">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="../index.html">
+                    SourdoughBake </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a target="_blank" rel="noopener noreferrer" href="../blog/index.html" class="nav-link">
+                            <!-- <i class="material-icons"></i> -->Blog
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../calc/index.html" class="nav-link">
+                            <!-- <i class="material-icons"></i> -->Baker's calculator
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <!-- <i class="material-icons"></i> -->Chat
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        html,
+        body {
+            height: 100%;
+            background: #FF0099;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #493240, #FF0099);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #493240, #FF0099);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        .navbar {
+            margin-bottom: 0px;
+        }
+
+        .main-container {
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            height: 100%;
+            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+        }
+
+        main {
+            max-width: 42em;
+        }
+
+        .cover {
+            padding: 0 1.5rem;
+        }
+
+        .cover .btn-lg {
+            padding: .75rem 1.25rem;
+            font-weight: 700;
+        }
+    </style>
+
+    <div class="main-container">
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">Online chat community.</h1>
+            <p class="lead">Have you been bitten by the sourdough bug and now you want to talk about bread but your
+                friends are tired of hearing about it? Yea, ours too. Come hang out with us in our public Discord chat.
+            </p>
+            <p class="lead">
+                <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/dZJzkYg"
+                    class="btn btn-lg btn-secondary">Join us</a>
+            </p>
+            <!-- Button trigger modal -->
+            <a class="learn_more" data-toggle="modal" data-target="#exampleModal">
+                Learn more
+            </a>
+
+            <style>
+                .modal-content {
+                    color: black;
+                }
+                .learn_more {
+                    cursor: pointer;
+                }
+            </style>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            We use a 3rd party application as our chat platform. Currently you can log in as a guest
+                            without creating an account. However, if we get a lot of spammers we will flip the switch.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="../assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script src="../assets/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132474366-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132474366-1');
+    </script>
+</body>
+
+</html>
