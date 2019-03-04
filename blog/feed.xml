@@ -3,7 +3,7 @@
     <title>Sourdough blog </title>
     <link href="https://www.sourdoughbake.com/blog/feed.xml" rel="self" />
     <link href="https://www.sourdoughbake.com/blog" />
-    <updated>2019-03-03T20:17:18-05:00</updated>
+    <updated>2019-03-03T20:19:18-05:00</updated>
     <author>
         <name>Alexander</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://www.sourdoughbake.com/blog/interview-with-a-baker-mark-and-grace.html"/>
         <id>https://www.sourdoughbake.com/blog/interview-with-a-baker-mark-and-grace.html</id>
+            <category term="Interview"/>
 
-        <updated>2019-03-03T20:17:08-05:00</updated>
+        <updated>2019-03-03T20:19:04-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://www.sourdoughbake.com/blog/media/posts/6/Copy_of_INTERVIEW_WITH_A.png" alt="Interview with a baker" />
